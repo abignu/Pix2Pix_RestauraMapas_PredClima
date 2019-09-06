@@ -7,4 +7,3 @@ Antes de meternos en los dos proyectos es necesario explicar el procesamiento de
 
 Para el proceso de limpieza se utilizó C# y Python. EL primer paso fue separar la variable de interés (temperatura máxima), esto redujo el dataset a 2 GB. Luego, al tener datos de muchas estaciones meteorológicas, procedimos a coger la latitud y longitud de cada una de estas para graficar y ver en que zona había más datos:
 
-![estaciones world] (https://drive.google.com/open?id=1CIOXXwJDRspf2Hnu7RH5X_j76jVHv4Ci)
