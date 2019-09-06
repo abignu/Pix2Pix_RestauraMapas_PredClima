@@ -15,7 +15,7 @@ Una vez hecha toda la limpieza de datos, utilizando C#, se descargaron datos des
 
 *insertar una imagen ejemplo del dataset*
 
-Las líneas de colores a los costados son un código de colores que representan día y mes del año. La barra horizontal representa los días y la vertical el mes. Esto, de alguna forma, para el primer proyecto ayuda a la predicción del día siguiente. 
+Las líneas de colores a los costados son un código de colores que representan día y mes del año. La barra horizontal representa los días y la vertical el mes. Esto, de alguna forma, para el primer proyecto, ayuda a la predicción del día siguiente. 
 
 Una vez obtenido el dataset principal, se construyó el modelo de red neuronal a utilizar en TF 2.0. 
 
@@ -24,3 +24,34 @@ Una vez obtenido el dataset principal, se construyó el modelo de red neuronal a
 El primer proyecto consistió en utilizar el modelo Pix2Pix para predecir el clima de mañana en base al mapa de temperaturas de hoy. De esta forma, el input era el mapa de hoy y el target el mapa de mañana. 
 
 Ambas imágenes están en la misma carpeta ya que la target de una iteración es el input de la siguiente. Llevan un nombre que las identifica con el siguiente formato yyyymmdd-xxxxxx.png dónde los últimos seis dígitos son el número de imagen en el dataset. 
+
+Se hizo un entrenamiento con 3200 imágenes. El 80% de eso se pasó a testeo. 
+
+Los resultados fueron los siguientes:
+
+*insterar imágenes de resultados del primer proyecto*
+
+En el repositorio se ha subido el dataset para que cada uno pueda usarlo a su gusto. En el notebook correspondiente, al final hay una celda ejecutable para que le cargues la imagen que quieras. Debe respetar el codigo de fechas (hay que acordarse de modificar las rutas de carpetas). 
+
+Las conclusiones extraídas de este proyecto es que funcionó y para aprender sobre el tema es algo útil y muy divertido. 
+
+**Proyecto 2:**
+
+En el segundo ptoyecto se le dio una vuelta de tuerca con el objetivo de hacer ésto aplicable a climatólogos que posean mapas estropeados o en mal estado. De esta forma, se cogieron 1000 imágenes del dataset y se les aplicó una 'acción' en la que se retocó la imagen para dejarla lo más aceptable posible:
+
+*insertar imagen de imagen retocada (antes y después)*
+
+Claramente, el nuevo target será la imagen retocada. El input sigue siendo la imagen mostrada más arriba. 
+
+Se entrenó sobre 1000 imágenes (80& testeo). Los resultados fueron los siguientes:
+
+*poner ejemplos de resultados*
+
+Como vemos, logra recontruir la imagen de manera certera. Esto, sin lugar a dudas, es de mucha utilidad para diferentes aplicaciones de cara a la climatología y mapas satélitales en mal estado. 
+
+Aquí les dejo un gif de los outputs recreados:
+
+*insertar gif sobre los outputs*
+
+
+
