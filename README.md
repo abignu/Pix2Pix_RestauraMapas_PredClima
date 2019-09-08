@@ -8,9 +8,11 @@ Antes de meternos en los dos proyectos es necesario explicar el procesamiento de
 Para el proceso de limpieza utilicé C#. EL primer paso fue separar la variable de interés (temperatura máxima), esto redujo el dataset a 2 GB. Luego, al tener datos de muchas estaciones meteorológicas, procedí a coger la latitud y longitud de cada una de estas para graficar y ver en que zona había más datos (cada pixel es una estación):
 
 Gráfico de todas las estaciones disponibles entre 1840 y 2019
+
 ![world](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/world.png)
 
 Gráfico de estaciones acotado a USA entre 1840 y 2019
+
 ![usa](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/usa.png)
 
 Como se vé, USA es la que más estaciones tiene, por lo que decidí restringir el dataset de las TMAX a las estaciones en USA. El dataset se redujo a 1.6 GB. Todo esto se hizo con C#. El siguiente paso fue separar las estaciones junto con su latitud y longitud, por año, mes y día y la temperatura asociada a ese día. Esto generó muchos registros en el dataset elevándolo a 6 GB. Este dataset se lo introdujo en una base de datos para manejarlo con mayor facilidad. Luego de subirlo, mediante 'queries', seguí limpiando el dataset. Quité más registros incoherentes, ajusté las temperaturas a un rango lógico ya que había muchas temperaturas que se salían de la media. Esto lo hice por el hecho de que a lo mejor se trató de una mala medida de ese día por lo que me restringí a 52ºC y -18ºC que son los registros históricos de USA. 
