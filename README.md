@@ -27,7 +27,7 @@ Ejemplo de un día de invierno
 
 ![invierno](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19891221-003642.png?raw=true)
 
-Las líneas de colores a los costados son un código de colores que representan día y mes del año. La barra horizontal representa los días y la vertical el mes. Esto, de alguna forma, para el primer proyecto, ayuda a la predicción del día siguiente. 
+Las líneas de colores a los costados son un código de colores que representan día y año. La barra horizontal representa los días (1 a 365) y la vertical el año. Esto, de alguna forma, para el primer proyecto, ayuda a la predicción del día siguiente. 
 
 Una vez obtenido el dataset principal, se construyó el modelo de red neuronal a utilizar en TF 2.0. 
 
