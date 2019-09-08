@@ -53,7 +53,9 @@ Las conclusiones extraídas de este proyecto es que generó mapas predichos bast
 
 **Proyecto 2:**
 
-En el segundo proyecto se le dio una vuelta de tuerca con el objetivo de hacer ésto aplicable a climatólogos que posean mapas estropeados o en mal estado. De esta forma, se cogieron 1000 imágenes del dataset y se les aplicó una 'acción' en photoshop en la que se retocó la imagen para dejarla lo más aceptable posible:
+En el segundo proyecto se le dio una vuelta de tuerca con el objetivo de hacer que el output del proyecto 1 luzca de forma más parecida a lo que es un mapa de temperaturas máximas utilizados en meteorología. De esta forma, avanzando en mejoras del proyecto se puede lograr que los climatólogos utilicen este modelo para mejorar los mapas generados a partir de sus datos. 
+
+Se cogieron 1000 imágenes del dataset y se les aplicó una 'acción' en photoshop en la que se retocó la imagen para dejarla lo más aceptable posible:
 
 ![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800627-000178.png?raw=true)
 ![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800109-000008.png?raw=true)
