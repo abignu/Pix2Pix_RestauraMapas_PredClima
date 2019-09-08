@@ -28,11 +28,12 @@ El primer proyecto consistió en utilizar el modelo Pix2Pix para predecir el cli
 
 Ambas imágenes están en la misma carpeta ya que la target de una iteración es el input de la siguiente. Llevan un nombre que las identifica con el siguiente formato yyyymmdd-xxxxxx.png dónde los últimos seis dígitos son el número de imagen en el dataset. 
 
-Se hizo un entrenamiento con 3200 imágenes. El 80% de eso se pasó a testeo. 
+Se hizo un entrenamiento con 3200 imágenes. El 20% de eso se pasó a testeo. 
 
 Los resultados fueron los siguientes:
 
-*insterar imágenes de resultados del primer proyecto*
+![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/resultados_proyecto1/result1.jpg)
+![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/resultados_proyecto1/result2.jpg)
 
 En el repositorio se ha subido el dataset para que cada uno pueda usarlo a su gusto. En el notebook correspondiente, al final hay una celda ejecutable para que le cargues la imagen que quieras. Debe respetar el codigo de fechas (hay que acordarse de modificar las rutas de carpetas). 
 
@@ -42,13 +43,16 @@ Las conclusiones extraídas de este proyecto es que funcionó y para aprender so
 
 En el segundo ptoyecto se le dio una vuelta de tuerca con el objetivo de hacer ésto aplicable a climatólogos que posean mapas estropeados o en mal estado. De esta forma, se cogieron 1000 imágenes del dataset y se les aplicó una 'acción' en la que se retocó la imagen para dejarla lo más aceptable posible:
 
-*insertar imagen de imagen retocada (antes y después)*
+![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800627-000178.png?raw=true)
+![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800109-000008.png?raw=true)
 
 Claramente, el nuevo target será la imagen retocada. El input sigue siendo la imagen mostrada más arriba. 
 
-Se entrenó sobre 1000 imágenes (80& testeo). Los resultados fueron los siguientes:
+Se entrenó sobre 1000 imágenes (20% testeo). Los resultados fueron los siguientes:
 
-*poner ejemplos de resultados*
+![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/resultados_proyecto2/result1.jpg)
+![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/resultados_proyecto2/result2.jpg)
+![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/resultados_proyecto2/result3.jpg)
 
 Como vemos, logra recontruir la imagen de manera certera. Esto, sin lugar a dudas, es de mucha utilidad para diferentes aplicaciones de cara a la climatología y mapas satélitales en mal estado. 
 
