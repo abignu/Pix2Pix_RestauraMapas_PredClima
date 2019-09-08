@@ -67,9 +67,9 @@ Ejemplo 2:
 ![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800109-000008-origen.png?raw=true)
 ![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800109-000008.png?raw=true)
 
-Claramente, el nuevo target será la imagen retocada. El input sigue siendo la imagen mostrada más arriba. 
+Claramente, el nuevo target será la imagen mejorada. 
 
-En el repositorio 'origen' es el input y 'destino' el target. 
+En el repositorio, la carpeta 'origen' es el input y la carpeta 'destino' el target. 
 
 Se entrenó sobre 1000 imágenes (20% testeo). Los resultados fueron los siguientes:
 
@@ -77,14 +77,15 @@ Se entrenó sobre 1000 imágenes (20% testeo). Los resultados fueron los siguien
 ![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/resultados_proyecto2/result2.jpg)
 ![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/resultados_proyecto2/result3.jpg)
 
-Como vemos, logra recontruir la imagen de manera certera. Esto, sin lugar a dudas, es de mucha utilidad para diferentes aplicaciones de cara a la climatología y mapas satélitales en mal estado. 
+Como vemos, logra recontruir la imagen de manera certera. Esto, sin lugar a dudas, es de mucha utilidad para diferentes aplicaciones de cara a la climatología y mejora o customización de mapas. 
 
 Aquí les dejo un gif de los outputs recreados:
 
-![alt text](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/gif_outputs.gif)
+![Imágenes output](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/gif_invierno_img_corregidas.gif)
 
-Este es otro gif a partir de unas imágenes con las que entrenó de enero de 1980:
+**Conclusiones:** 
 
-![alt text](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/gif_invierno_img_corregidas.gif)
+Se concluye que el modelo utilizado sirve para inferir datos a partir de datos, a pesar de que este modelo no fue pensado para este tipo de aplicaciones.
 
+A su vez, se logró mejorar y adaptar un mapa utilizando el mismo modelo para llevarlo a una representación más acorde con los tipos de imágenes utilizadas en meteorología.
 
