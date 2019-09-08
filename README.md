@@ -53,5 +53,8 @@ Aquí les dejo un gif de los outputs recreados:
 
 *insertar gif sobre los outputs*
 
+Este es otro gif a partir de unas imágenes con las que entrenó de enero de 1980:
+
+![alt text](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/gif_invierno_img_corregidas.gif)
 
 
