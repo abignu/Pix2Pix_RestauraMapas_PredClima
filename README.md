@@ -57,7 +57,14 @@ En el segundo proyecto se le dio una vuelta de tuerca con el objetivo de hacer q
 
 Se cogieron 1000 imágenes del dataset y se les aplicó una 'acción' en photoshop en la que se retocó la imagen para dejarla lo más aceptable posible:
 
+Ejemplo 1:
+
+![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800627-000178-origen.png?raw=true)
 ![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800627-000178.png?raw=true)
+
+Ejemplo 2:
+
+![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800109-000008-origen.png?raw=true)
 ![](https://github.com/abignu/Pix2Pix_RestauraMapas_PredClima/blob/master/images/19800109-000008.png?raw=true)
 
 Claramente, el nuevo target será la imagen retocada. El input sigue siendo la imagen mostrada más arriba. 
